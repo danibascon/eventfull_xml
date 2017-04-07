@@ -42,10 +42,5 @@ def server_static(filepath):
 	return static_file(filepath, root='static')
 
 
-run(host='localhost', port=8080, debug=True, reloader=True)
-
-
-
-
 if __name__ == '__main__':
 	run(host='0.0.0.0',port=argv[1])
