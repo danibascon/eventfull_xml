@@ -3,7 +3,6 @@ import bottle
 
 from bottle import Bottle,route,run,request,template,static_file
 from lxml import etree
-import os
 import requests
 
 @route('/', method="get")
