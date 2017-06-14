@@ -1,16 +1,11 @@
-from sys import argv
-import bottle
-from bottle import Bottle,route,run,request,template,static_file,redirect,get,post, default_app, response, get, post
-import os
-import json
+from bottle import default_app, get, post, template, request, static_file, response,redirect
 import requests
 from requests_oauthlib import OAuth1
 from requests_oauthlib import OAuth2Session
 from oauthlib.oauth2 import TokenExpiredError
 from urlparse import parse_qs
-
-
-
+import json
+import os
 
 
 client_id='riWx5VxvjD2nvYf7qFHyk4gat'
