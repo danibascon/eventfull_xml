@@ -232,8 +232,8 @@ def twitter_logout():
 
 #-----youtube----------------------
 
-client_id='riWx5VxvjD2nvYf7qFHyk4gat'
-client_secret='5qR5SR1c9ahUqTCPoqLeqqc1BM2c1DgZFkFr7y0oGEQ9nfrxEJ'
+client_id='1002052005922-rr7bc2g3n2721gnb0a61242gog3mt84v.apps.googleusercontent.com'
+client_secret='EzJ0lyZxhD_tkIAG5Y5PKbxO'
 redirect_uri = 'https://oauth-iesgn.rhcloud.com/oauth2callback'
 scope = ['https://www.googleapis.com/auth/youtube','https://www.googleapis.com/auth/userinfo.profile']
 token_url = "https://accounts.google.com/o/oauth2/token"
